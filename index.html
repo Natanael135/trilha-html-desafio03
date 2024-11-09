@@ -1,44 +1,141 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página Principal</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assets/images/logo.png" width="200" alt="Logo da Empresa" />
+      </div>
+    </header>
 
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
-        </div>
-    </div>
+    <nav class="bar">
+      <!-- Navegação ou links de barra -->
+    </nav>
 
-    <div class="bar"></div>
+    <main class="content">
+      <aside class="sidebar">
+        <h2>Serie de TV</h2>
+        <ul>
+          <li>
+            <a href="https://pt.wikipedia.org/wiki/Arcane" target="_blank"
+              >Mais informaçoes sobre Arcane</a
+            >
+          </li>
+        </ul>
+      </aside>
 
-    <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
-            <ul>
-                <li><a href="#">Links</a></li>
-            </ul>
-        </div>
+      <section class="main" id="main">
+        <h1>Arcane</h1>
+        <p>
+          Arcane (oficialmente intitulada como Arcane: League of Legends) é uma
+          série de televisão animada adulta de streaming, dos gêneros ação e
+          aventura, criada por Christian Linke e Alex Yee e distribuída pela
+          Netflix. O show, produzido pelo estúdio de animação francês Fortiche
+          sob a supervisão da Riot Games, é ambientado no universo fictício de
+          League of Legends e sua trama é focada nas irmãs Vi e Jinx. A série
+          foi anunciada nas comemorações do 10º aniversário de League of Legends
+          e foi lançada em novembro de 2021. Após a conclusão da primeira
+          temporada de Arcane em 20 de novembro de 2021, a Riot Games e a
+          Netflix anunciaram a produção da segunda temporada com previsão de
+          lançamento para algum momento após o ano de 2022.
+        </p>
+        <h2 id="sinopse">Sinopse</h2>
+        <p>
+          A trama gira em torno de uma tecnologia mágica conhecida com hextec
+          que dá a qualquer pessoa a habilidade de controlar energia mística e
+          essa ferramenta acaba causando um desequilíbrio entre os reinos. Ao
+          longo dos episódio, a série apresentará ao público os caminhos que os
+          personagens percorreram para se tornar quem são, além de também
+          apresentar inúmeros personagens novos.
+        </p>
+        <h2 id="premissa">Premissa</h2>
+        <p>
+          Em meio a crescentes tensões entre a rica e utópica cidade de Piltover
+          e a decadente e oprimida cidade de Zaun, as irmãs Vi e Jinx
+          encontram-se nos lados opostos de uma guerra em curso envolvendo
+          convicções conflitantes e tecnologias misteriosas.
+        </p>
 
-        <div class="main">
-            
-        </div>
+        <figure id="logo">
+          <img
+            src="assets/images/ArcaneLogo.png"
+            alt="Logo da Serie Arcane da Netflix"
+          />
+          <figcaption>Logo da Serie Arcane</figcaption>
+        </figure>
 
-        <div class="anchors">
-            <h2>Neste Artigo</h2>
-            <ul>
-                <li><a href="#">Âncoras</a></li>
-            </ul>
-        </div>
-    </div>
+        <table border="1" id="tabela-epsodios">
+          <caption>
+            Lista de Epsodios
+          </caption>
+          <thead>
+            <tr>
+              <th>Epsodio</th>
+              <th>Data de Exibição</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Epsodio 01</td>
+              <td>6 de novembro de 2021</td>
+            </tr>
+            <tr>
+              <td>Epsodio 02</td>
+              <td>6 de novembro de 2021</td>
+            </tr>
+            <tr>
+              <td>Epsodio 03</td>
+              <td>6 de novembro de 2021</td>
+            </tr>
+            <tr>
+              <td>Epsodio 04</td>
+              <td>6 de novembro de 2021</td>
+            </tr>
+            <tr>
+              <td>Epsodio 05</td>
+              <td>6 de novembro de 2021</td>
+            </tr>
+            <tr>
+              <td>Epsodio 06</td>
+              <td>6 de novembro de 2021</td>
+            </tr>
+            <tr>
+              <td>Epsodio 07</td>
+              <td>6 de novembro de 2021</td>
+            </tr>
+            <tr>
+              <td>Epsodio 08</td>
+              <td>6 de novembro de 2021</td>
+            </tr>
+            <tr>
+              <td>Epsodio 09</td>
+              <td>6 de novembro de 2021</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
 
-    <div class="footer">
+      <aside class="anchors">
+        <h2>Neste Artigo</h2>
+        <ul>
+          <li><a href="#main">Inicio</a></li>
+          <li><a href="#sinopse">Sinopse</a></li>
+          <li><a href="#premissa">Premissa</a></li>
+          <li><a href="#logo">Logo Arcane</a></li>
+          <li><a href="#tabela-epsodios">Epsodios</a></li>
+        </ul>
+      </aside>
+    </main>
 
-    </div>
-</body>
+    <footer class="footer">
+      <p>projeto proposto pela trilha html basico dio</p>
+      <p>todos direitos reservados</p>
+    </footer>
+  </body>
 </html>
